@@ -4,7 +4,7 @@ import seaborn as sns
 import streamlit as st
 
 # Load data
-day_df = pd.read_csv("dashboard\day.csv")
+day_df = pd.read_csv("dashboard/day.csv")
 
 # Set style seaborn
 sns.set(style='dark')
